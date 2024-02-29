@@ -1,0 +1,24 @@
+{
+    "name": "jSoleguiaInetum/fl0-nodejs",
+    "description": "composer.json",
+    "license": "GPL-2.0+",
+    "type": "a",
+    "version": "dev",
+    "authors": [
+        {
+            "name": "jSoleguiaInetum",
+            "email": "me@me.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=7",
+        "composer/composer": "*"
+    },
+    "autoload"    : {
+        "classmap": [
+            "php/"
+        ]
+    }
+}
